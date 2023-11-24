@@ -1,5 +1,46 @@
-body {
-    background-color: #000;
-    color: white;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+    height: 100%;
+    min-width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 2px solid rgb(127, 162, 192);
+    background-color: rgb(142, 188, 230);
+}
+
+.nav-title {
+    text-align: center;
+    font-size: 1.6em;
+    margin: 0.5em;
+}
+
+.nav-list {
+    height: 90vh;
+    padding: 0;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.nav-item {
+    list-style: none;
+    border-top: 1px solid;
+    border-bottom: 1px black;
+    padding: 12px 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#main-doc {
+    background-color: aquamarine;
+}
