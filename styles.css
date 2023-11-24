@@ -13,7 +13,6 @@ body {
     top: 0;
     left: 0;
     border-right: 2px solid rgb(127, 162, 192);
-    background-color: rgb(142, 188, 230);
 }
 
 .nav-title {
@@ -42,5 +41,44 @@ body {
 }
 
 #main-doc {
-    background-color: aquamarine;
+    position: absolute;
+    margin-left: 320px;
+    padding: 20px;
+    min-width: 400px;
 }
+
+#main-doc h2 {
+    font-size: 1.7em;
+    margin: 0;
+}
+
+
+.main-section article {
+    font-size: 0.93em;
+    padding: 15px;
+    line-height: 1.6em;
+}
+
+article li {
+    margin-top: 15px;
+}
+
+code {
+    
+  }
+
+  /* code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  } */
+
+
